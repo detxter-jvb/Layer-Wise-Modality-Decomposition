@@ -4,8 +4,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/venue-NeurIPS%202025-7a77ff" />
-  <img src="https://img.shields.io/badge/python-3.7%2B-blue" />
-  <img src="https://img.shields.io/badge/pytorch-1.1+-red" />
   <img src="https://img.shields.io/badge/license-MIT-green" />
 </p>
 
