@@ -63,20 +63,12 @@ Install PyTorch (matching the version used for this codebase):
 pip install torch==2.7.1+cu126 torchvision==0.22.1+cu126 --index-url https://download.pytorch.org/whl/cu126
 ```
 
-Minimal runtime (LMD visualization/eval):
-```
-pip install numpy matplotlib pandas fire efficientnet_pytorch
-```
-
-For dataset export (nuScenes) you also need:
-```
-pip install nuscenes-devkit pyquaternion opencv-python Pillow lyft-dataset-sdk
+Install the remaining dependencies via requirements:
+```bash
+pip install -r requirements.txt
 ```
 
-Optional (notebook KDE plot):
-```
-pip install scipy
-```
+`requirements.txt` includes runtime, nuScenes export, and notebook dependencies.
 
 ---
 

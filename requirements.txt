@@ -1,0 +1,11 @@
+numpy
+matplotlib
+pandas
+fire
+efficientnet_pytorch
+nuscenes-devkit
+pyquaternion
+opencv-python
+Pillow
+lyft-dataset-sdk
+scipy
