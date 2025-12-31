@@ -1,0 +1,7 @@
+data/
+checkpoints/
+lmd_results/
+output_eval_pkl_variants/
+*.pt
+*.pth
+*.pkl
