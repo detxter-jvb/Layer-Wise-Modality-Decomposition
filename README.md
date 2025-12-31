@@ -52,9 +52,20 @@ LMD_two_three_modal_github/
 
 Python 3.10+ recommended.
 
+Create and activate the conda env:
+```bash
+conda create -n bev python=3.10 -y
+conda activate bev
+```
+
+Install PyTorch (matching the version used for this codebase):
+```bash
+pip install torch==2.7.1+cu126 torchvision==0.22.1+cu126 --index-url https://download.pytorch.org/whl/cu126
+```
+
 Minimal runtime (LMD visualization/eval):
 ```
-pip install torch torchvision numpy matplotlib pandas fire efficientnet_pytorch
+pip install numpy matplotlib pandas fire efficientnet_pytorch
 ```
 
 For dataset export (nuScenes) you also need:
@@ -200,4 +211,3 @@ All scripts resolve paths relative to this repo by default. You can relocate the
 
 - `run_lmd_2modal.sh` / `run_lmd_3modal.sh` (DATA_ROOT, CKPT, OUTPUT_DIR)
 - or environment variables (`LMD_DATA_ROOT`, `LMD_CKPT_DIR`, `LMD_OUTPUT_DIR`)
-
