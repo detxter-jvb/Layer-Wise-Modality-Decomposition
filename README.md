@@ -124,12 +124,6 @@ python eval_nuscenes_save_data.py \
   --device_ids 0
 ```
 
-If you want only one modality:
-```
-python eval_nuscenes_save_data.py --save_mode radar --radar_out_dir data/batch_1_validation_data
-python eval_nuscenes_save_data.py --save_mode lidar --lidar_out_dir data/batch_1_validation_data_lidar
-```
-
 ---
 
 ## ▶️ Run LMD (2-Modal)
