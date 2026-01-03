@@ -14,7 +14,7 @@ LMD is a **post-hoc interpretability** method that **decomposes a pretrained fus
 ## 📣 News
 
 * **2025-9**: Paper accepted to **NeurIPS 2025** 🎉
-* **2025-12**: Codebase will be cleaned up and released here.
+* **2026-1**: Codebase will be cleaned up and released here.
 
 ---
 
